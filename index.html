@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Vježba</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Exercise</h1>
+    </div>
+
+    <div class="btn">
+      <input
+        type="text"
+        name="fname"
+        id="inputId"
+        class="w-96 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
+      /><br />
+      <button
+        onclick="getName()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Greet
+      </button>
+      <p id="greet"></p>
+    </div>
+
+    <div class="operations">
+      <input
+        type="number"
+        placeholder="Number 1"
+        id="num1"
+        class="w-25 p-3 m-1 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
+      />
+      <input
+        type="number"
+        placeholder="Number 2"
+        id="num2"
+        class="w-25 p-3 m-1 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
+      />
+      <button
+        onclick="add()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Add
+      </button>
+      <button
+        onclick="subtract()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Subtract
+      </button>
+      <button
+        onclick="multiply()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Multiply
+      </button>
+      <button
+        onclick="divide()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Divide
+      </button>
+      <p id="result">0</p>
+    </div>
+
+    <div class="temp">
+      <input
+        type="number"
+        id="temp"
+        class="w-96 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
+      />
+      <button
+        onclick="celsiusToFahrenheit()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Fahrenheit
+      </button>
+      <button
+        onclick="fahrenheitToCelsius()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Celsius
+      </button>
+      <p id="tempResult">0</p>
+    </div>
+
+    <div class="string">
+      <input
+        type="text"
+        id="sentence"
+        class="w-96 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
+      />
+      <button
+        onclick="stringManipulator()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Transform the sentence
+      </button>
+      <p id="textResult"></p>
+    </div>
+
+    <div class="numCheck">
+      <input
+        type="number"
+        id="numToCheck"
+        class="w-96 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
+      />
+      <button
+        onclick="numberCheck()"
+        class="rounded-xl border-none hover:bg-neutral-300 p-2 m-1 bg-[rgb(194,192,192)] shadow-lg hover:shadow-lg transition-shadow duration-100"
+      >
+        Check Number
+      </button>
+      <p id="numResult"></p>
+    </div>
+
+    <script src="zd1.js"></script>
+    <script src="zd2.js"></script>
+    <script src="zd3.js"></script>
+    <script src="zd4.js"></script>
+    <script src="zd5.js"></script>
+    <script src="zd6.js"></script>
+    <script src="zd7.js"></script>
+    <script src="zd8.js"></script>
+    <script src="zd9.js"></script>
+    <script src="zd10.js"></script>
+    <script src="zd11.js"></script>
+  </body>
+</html>
